@@ -2,7 +2,11 @@
 
 A minimalist iOS application for tracking up-to-date currency exchange rates.
 
-## Tech Stack & UI
+## Design & UI/UX
+The application features a custom interface with full support for both **Light and Dark modes**. The UI was designed in Figma, utilizing a structured color system, design tokens, and modern visual elements (such as liquid glass styling) to ensure a seamless visual experience across both theme transitions. 
+* 🎨 **[View Figma Design Mockup](https://www.figma.com/design/BzVQMXbPNZJaABuic6brRi/Currency-%D1%81onverter?node-id=0-1&t=geFylUHvQGRyjjZG-1)**
+
+## Tech Stack & Architecture
 * **Hybrid Interface:** Built with SwiftUI and UIKit. Complex UI components (such as `UICollectionView` for the currency list and custom `UIView` elements) are written in UIKit and seamlessly integrated into SwiftUI using wrappers.
 * **Architecture:** Implements the MVVM pattern utilizing the Combine framework (`@Published`, `ObservableObject`) for reactive data binding.
 
